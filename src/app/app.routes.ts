@@ -4,20 +4,6 @@ import { BlankLayoutComponent } from './layout/blank-layout/blank-layout.compone
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { authGuard } from './core/guards/auth.guard';
 import { loggedGuard } from './core/guards/logged.guard';
-import { AllordersComponent } from './pages/allorders/allorders.component';
-import { BrandDetailsComponent } from './pages/brand-details/brand-details.component';
-import { BrandsComponent } from './pages/brands/brands.component';
-import { CartComponent } from './pages/cart/cart.component';
-import { CatDetailsComponent } from './pages/cat-details/cat-details.component';
-import { CategoriesComponent } from './pages/categories/categories.component';
-import { CheckoutComponent } from './pages/checkout/checkout.component';
-import { DetailsComponent } from './pages/details/details.component';
-import { ForgotpasswordComponent } from './pages/forgotpassword/forgotpassword.component';
-import { HomeComponent } from './pages/home/home.component';
-import { LoginComponent } from './pages/login/login.component';
-import { ProductsComponent } from './pages/products/products.component';
-import { RegisterComponent } from './pages/register/register.component';
-import { WishlistComponent } from './pages/wishlist/wishlist.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
