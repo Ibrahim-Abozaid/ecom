@@ -3,9 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-// @import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
-// @import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
-// @import "ngx-toastr/toastr";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
+@import "ngx-toastr/toastr";
 
 .btn-main {
   @apply disabled:bg-gray-700 bg-green-500 text-white px-12 py-2 border rounded hover:bg-green-800 transition-colors duration-500;
