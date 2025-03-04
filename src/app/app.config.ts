@@ -3,7 +3,7 @@ import {
   importProvidersFrom,
   provideZoneChangeDetection,
 } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideRouter, withComponentInputBinding } from '@angular/router';
 
 import { routes } from './app.routes';
 import {
@@ -29,7 +29,8 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(
-      routes
+      routes,
+      withComponentInputBinding()
       // withPrerendering({
       //   skipRoutes: ['checkout/:id', 'details/:id', 'brandDetail/:id'],
       // })

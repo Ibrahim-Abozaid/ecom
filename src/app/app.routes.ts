@@ -1,3 +1,4 @@
+import { RenderMode } from '@angular/ssr';
 import { Routes } from '@angular/router';
 import { AuthLayoutComponent } from './layout/auth-layout/auth-layout.component';
 import { BlankLayoutComponent } from './layout/blank-layout/blank-layout.component';
