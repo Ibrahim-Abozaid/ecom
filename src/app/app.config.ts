@@ -29,8 +29,7 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(
-      routes,
-      withComponentInputBinding()
+      routes
       // withPrerendering({
       //   skipRoutes: ['checkout/:id', 'details/:id', 'brandDetail/:id'],
       // })

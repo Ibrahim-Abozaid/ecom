@@ -86,7 +86,6 @@ export const routes: Routes = [
           import('./pages/checkout/checkout.component').then(
             (m) => m.CheckoutComponent
           ),
-
         title: 'Checkout',
       },
       {
@@ -112,6 +111,7 @@ export const routes: Routes = [
           import('./pages/brand-details/brand-details.component').then(
             (m) => m.BrandDetailsComponent
           ),
+
         title: 'Brand-Details',
       },
       {
@@ -120,6 +120,7 @@ export const routes: Routes = [
           import('./pages/cat-details/cat-details.component').then(
             (m) => m.CatDetailsComponent
           ),
+
         title: 'Cateogry details',
       },
       {
