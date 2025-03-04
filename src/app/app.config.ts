@@ -29,10 +29,10 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(
-      routes,
-      withPrerendering({
-        skipRoutes: ['checkout/:id', 'details/:id', 'brandDetail/:id'],
-      })
+      routes
+      // withPrerendering({
+      //   skipRoutes: ['checkout/:id', 'details/:id', 'brandDetail/:id'],
+      // })
     ),
     provideClientHydration(withEventReplay()),
     provideHttpClient(
@@ -58,8 +58,9 @@ export const appConfig: ApplicationConfig = {
     ),
   ],
 };
-function withPrerendering(arg0: {
-  skipRoutes: string[];
-}): import('@angular/router').RouterFeatures {
-  throw new Error('Function not implemented.');
-}
+
+// function withPrerendering(arg0: {
+//   skipRoutes: string[];
+// }): import('@angular/router').RouterFeatures {
+//   throw new Error('Function not implemented.');
+// }
