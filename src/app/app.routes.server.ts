@@ -14,6 +14,10 @@ export const serverRoutes: ServerRoute[] = [
     renderMode: RenderMode.Client, // ❌ تعطيل prerendering
   },
   {
+    path: 'cat-details/:id',
+    renderMode: RenderMode.Client, // ❌ تعطيل prerendering
+  },
+  {
     path: '**',
     renderMode: RenderMode.Prerender,
   },
